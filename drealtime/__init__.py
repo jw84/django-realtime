@@ -1,7 +1,8 @@
 import httplib
 import socket
+import simplejson as json
 from django.conf import settings
-from django.utils import simplejson as json
+
 
 __version__ = '0.1.5'
 VERSION = map(int, __version__.split('.'))
